@@ -1,0 +1,13 @@
+{
+  "name": "VSCify",
+  "description": "Add an Edit in VS Code button to Github repositories",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ]
+}
