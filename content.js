@@ -1,9 +1,16 @@
-const nav = document.querySelector("div.file-navigation");
-const container = document.createElement("div");
-container.className = "vsc-container";
+function addIcon() {
+  const box = document.querySelector('div.Box > div.Box-header');
+  const nav = document.querySelector('div.file-navigation');
+  if (!box || !nav) return;
 
-const url_old = window.location.href;
-const url_new = url_old.replace("github.com", "github.dev");
+  const container = document.createElement('div');
+  container.className = 'vscify-container';
 
-container.innerHTML = `<a class="btn btn-danger ml-2" href="${url_new}">VS Code</a>`;
-nav.appendChild(container);
+  const url_old = window.location.href;
+  const url_new = url_old.replace('github.com', 'github.dev');
+
+  container.innerHTML = `<a style="background-color: #ffeaa7;" class="btn ml-2 vscify-button" href="${url_new}">Editor</a>`;
+  nav.appendChild(container);
+}
+
+addIcon();
