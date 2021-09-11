@@ -1,6 +1,6 @@
 {
   "name": "VSCify",
-  "description": "Instantly start editing code from a Github repository. This extension adds a VS Code button to all repositories on Github. Once you press this button, you will immediately be taken to a powerful online editor.",
+  "description": "Instantly start editing code from a Github repository. This extension adds a VS Code button to all viewable repositories on Github.",
   "version": "0.0.0.1",
   "manifest_version": 3,
   "content_scripts": [
