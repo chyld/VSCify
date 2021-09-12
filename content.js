@@ -9,7 +9,7 @@ function addIcon() {
   const url_old = window.location.href;
   const url_new = url_old.replace('github.com', 'github.dev');
 
-  container.innerHTML = `<a style="background-color: #ffeaa7;" class="btn ml-2 vscify-button" href="${url_new}">VS Code</a>`;
+  container.innerHTML = `<a style="background-color: #ffeaa7;" class="btn ml-2 vscify-button" href="${url_new}">Web Editor</a>`;
   nav.appendChild(container);
 }
 
