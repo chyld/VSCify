@@ -1,7 +1,7 @@
 {
   "name": "VSCify",
-  "description": "Instantly start editing code from a Github repository. This extension adds a Web Editor button to all viewable repositories on Github.",
-  "version": "0.0.0.3",
+  "description": "Instantly start editing code from a Github repository. This extension adds a Web Editor button to each repo you visit.",
+  "version": "0.0.0.4",
   "manifest_version": 3,
   "content_scripts": [
     {
