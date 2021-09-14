@@ -1,6 +1,6 @@
 # VSCify
 
-A Google Chrome extension that displays a "Web Editor" button on every Github repository page.
+A Google Chrome extension that displays a "Web Editor" button on each Github repository page that you visit.
 
 ## Chrome Extension
 
